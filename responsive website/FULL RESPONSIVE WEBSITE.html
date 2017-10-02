@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<title>webSite Example</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	</head>
+	<body>
+		
+		<div class="container first ">
+			<!-- creating the contact information-->
+			<div class="row ">
+				<div class="col-lg-8 visible-lg ">
+					<ul class="firstone">
+						<li><a href="#" class="fa fa-map-marker"></a> House-54/A,London,UK</li>
+						<li><a href="#"></a>|</li>
+						<li><a href="#" class="fa fa-envelope-o"></a> info@yourCompany.com</li>
+						<li><a href="#"></a>|</li>
+						<li><a href="#" class="fa fa-phone "></a> +12 345 678 0000</li>					
+					</ul>
+				</div>	
+				<div class="col-xs-12 col-lg-4 col-sm-12 text-center social ">
+					<ul class="pagination">
+						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-twitter"></a></li>
+						<li><a href="#" class="fa fa-google-plus"></a></li>
+						<li><a href="#" class="fa fa-dribbble"></a></li>
+						<li><a href="#" class="fa fa-linkedin"></a></li>
+						<li><a href="#" class="fa fa-flickr "></a></li>
+						<li><a href="#" class="fa fa-tumblr"></a></li>
+						<li><a href="#" class="fa fa-vimeo-square"></a></li>						
+						<li><a href="#" class="fa fa-instagram "></a></li>
+						<li><a href="#" class="fa fa-skype"></a></li>					
+					</ul>
+				</div>				
+			</div><!-- end of the contact information-->
+		</div><!-- containerdiv end-->
+		<div class="container second">	
+			<!--CREATE A NAVIGATION BAR INSIDE A CONTAINER-->
+			
+				<nav class="navbar navsec navbar-default " data-spy="affix" data-offset-top="197"> <!--navbar-default is for providing default theem for navbar-->
+					<div class="navbar-header">
+					<!--CREATE A HAMBURGER MENU-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+							<span class="sr-only"></span> <!--CREATING A SCREEN READER-->
+							<span class="icon-bar"></span> <!--CREATING A THREE HORIZONTAL LINES-->
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+					</button>
+						<a class="navbar-brand" href="#">
+							<img src="images/margo.png" alt="brand"/>
+						</a>
+					</div>
+					<div class="navbar navbar-collapse navbar-right"  id="example"> <!--ID="EXAMPLE" IS USED FOR LINKING A BUTTONM TO THE MENU-->
+						<ul class="nav navbar-nav " id="hv">
+							 <li class="act" ><a  href="#">Home</a></li>
+							 <li><a href="#">Pages</a></li>
+							 <li><a href="#" >Shortcuts</a></li>
+							<li><a href="#" >Portfolio</a></li>
+							 <li><a href="#" >Blog</a></li>
+							 <li><a href="#" >Contact</a></li>
+							 <li><a class="fa fa-search fa-2x"></a></li>
+						 </ul>
+					</div>
+				</nav><!-- nav ends-->
+		</div><!---container second end-->
+		
+		
+			<!--- carousel div started-->
+		<div class="carousel slide" id="mycarousel">
+			
+			<!--creating orderleist for radio buttons-->
+				<ol class="carousel-indicators">
+					<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#mycarousel" data-slide-to="1"></li>
+					<li data-target="#mycarousel" data-slide-to="2"></li>
+				</ol>
+					<div class="carousel-inner text-center">
+						<div class="item active">
+							  <img src="images/bg3.jpg" class="img-responsive" alt="image1">
+							  <div class="carousel-caption">
+								<h1>THE WAY OF <span>SUCCESS</span></h1>
+								<h3>WHY YOU ARE WAITING</h3>
+								<a class="btn  btn-lg btn-danger " href="#" role="button">GET NOW</a>
+								<a class="btn  btn-lg btn-default " href="#" role="button">LIVE DEMO</a>
+							  </div>
+						 </div><!--item div end-->
+						 <div class="item ">
+							  <img src="images/bg4.jpg" class="img-responsive" alt="image1">
+							   <div class="carousel-caption">
+								<h1>THE WAY OF <span>SUCCESS</span></h1>
+								<h3>WHY YOU ARE WAITING</h3>
+								<a class="btn  btn-lg btn-danger " href="#" role="button">GET NOW</a>
+								<a class="btn  btn-lg btn-default " href="#" role="button">LIVE DEMO</a>
+							  </div>
+						 </div><!--item div end-->
+						 <div class="item">
+							  <img src="images/bg5.jpg" class="img-responsive" alt="image1">
+							   <div class="carousel-caption">
+								<h1>THE WAY OF <span>SUCCESS</span></h1>
+								<h3>WHY YOU ARE WAITING</h3>
+								<a class="btn  btn-lg btn-danger " href="#" role="button">GET NOW</a>
+								<a class="btn  btn-lg btn-default " href="#" role="button">LIVE DEMO</a>
+							  </div>
+						 </div><!--item div end-->
+					</div><!--- inner div end-->
+					
+					<a class="carousel-control left" href="#mycarousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#mycarousel" data-slide="next">&rsaquo;</a>
+
+			</div><!---carousel main div end-->
+			<!--portfolio div starts-->
+			<div class="container port">
+			
+				<div  class="row text-center third">
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-leaf fa-5x"></i>
+						<h3>High Quality Theme</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-desktop fa-5x"></i>
+						<h3>Full Responsive</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-eye fa-5x"></i>
+						<h3>Retina Display Ready</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+				<section>
+						<i class="fa fa-code fa-5x"></i>
+						<h3>Clean Modren Code</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+			</div>
+			<div  class="row text-center four">
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-rocket fa-5x"></i>
+						<h3>Fast $ Light Theme</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-css3 fa-5x"></i>
+						<h3>Css3 Transitions</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+					<section>
+						<i class="fa fa-download fa-5x"></i>
+						<h3>Free Updates</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12">
+				<section>
+						<i class="fa fa-umbrella fa-5x"></i>
+						<h3>Help & Support</h3>
+						<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat Lorem pariatur.</p>
+					</section>
+				</div>
+			</div>
+			</div> <!---portfolio div end-->
+		<div class="container-fluid">
+			<section class="row text-center sixth">
+								
+								<h2> MODERN MARGO TEMPLATE IS READY FOR <br>BUSINESS , AGENCY OR CREATIVE PORTFOLIOS</h2>
+								
+								
+								<a class="btn  btn-lg btn-danger" href="#" role="button"><i class="fa fa-tasks"></i> CHECK OUT FEATURES</a>
+								<a class="btn  btn-lg btn-default  " href="#" role="button"><i class="fa fa-download"></i> PURCHASE THIS NOW</a>
+							
+			</section>
+			<div class="container">
+			<section class="row text-center sixthone">
+					<h2><span>This is our Latest </span>Work </h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+					Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+					Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+			</section>
+			</div>
+			<div class="row blu">
+			
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3  seven">
+				<img src="images/1.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/2.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/3.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/4.png" class="img-responsive"  alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/5.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/6.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/7.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/8.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/9.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/10.png" class="img-responsive"  alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/11.png" class="img-responsive" alt="image1">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 seven">
+				<img src="images/12.png" class="img-responsive" alt="image1">
+				</div>
+			
+			
+		</div><!---port row end-->
+		
+		<div class="container">
+			<div class="row sevenone">
+				<div class="col-xs-12 col-sm-12 col-md-8">
+					<nav>
+					<ul class="pagination pull-right">
+						<li><a href="#">&laquo;</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+					</nav>
+					<h2>Latest News</h2>
+					<div class="row seven1">
+						<div class="col-xs-12 col-sm-12 col-md-6 seve1">
+							<div class="sdate text-center">
+								<p><span>28</span> DEC</p>
+								<i class="fa fa-picture-o fa-1x"></i>
+							</div>
+							<h3>Standard Post With Image</h3>
+							<p class="tex">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader <span class="read">Read More..></span></p>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 seve1">
+							<div class="sdate text-center">
+								<p><span>28</span> DEC</p>
+								<i class="fa fa-picture-o fa-1x"></i>
+							</div>
+							<h3>Link Post</h3>
+							<p class="tex">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader <span class="read">Read More..></span></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4">
+					<nav>
+					<ul class="pagination pull-right">
+						<li><a href="#">&laquo;</a></li>
+						<li><a href="#">&raquo;</a></li>
+					</ul>
+					</nav>
+					<h2>Testimonals</h2>
+					<p class="sp">"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum It is a long established fact that a reader"</p>
+					<p><span class="author">John Doe</span>-Customer</p>
+				</div>
+			</div>
+			<section class="row text-center sixthone">
+					<h2><span>Our Great </span>Team </h2>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+					<span>Vestibulum tortor</span> quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam <span>egestas</span> semper.
+					Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+			
+			</section>
+			<div class="row eight ">
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<img src="images/face_1.png" alt="face1"/>	
+				<div class="role">
+					<span>John Doe</span>
+					<span>Developer</span>
+				</div>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor fugiat<p>
+				<h5 class="prgogress-label">Photoshop</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 90%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Logic Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 70%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Vectors Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 100%;">
+				  </div>
+				</div>
+				
+				
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google-plus"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-flickr "></a>
+				<a href="#" class="fa fa-envelope-o"></a>
+				</div>	
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<img src="images/face_2.png" alt="face1"/>
+				<div class="role">
+					<span>Silly Sally</span>
+					<span>Developer</span>
+				</div>				
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor fugiat<p>
+				<h5 class="prgogress-label">Photoshop</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 90%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Logic Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 70%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Vectors Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 100%;">
+				  </div>
+				</div>
+				
+				
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google-plus"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-flickr "></a>
+				<a href="#" class="fa fa-envelope-o"></a>
+				</div>	
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<img src="images/face_3.png" alt="face1"/>
+				<div class="role">
+					<span>Chris John</span>
+					<span>Developer</span>
+				</div>				
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor fugiat<p>
+				<h5 class="prgogress-label">Photoshop</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 80%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Logic Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 70%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Vectors Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 60%;">
+				  </div>
+				</div>
+				
+				
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google-plus"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-flickr "></a>
+				<a href="#" class="fa fa-envelope-o"></a>
+				</div>	
+				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<img src="images/face_4.png" alt="face1"/>
+				<div class="role">
+					<span>Sara John</span>
+					<span>Developer</span>
+				</div>
+				<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolor fugiat<p>
+				<h5 class="prgogress-label">Photoshop</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 90%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Logic Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 70%;">
+				  </div>
+				</div>	
+				<h5 class="prgogress-label">Vectors Design</h5>
+				<div class="progress">
+				  <div class="progress-bar progress-bar-danger" role="progressbar"  style="width: 100%;">
+				  </div>
+				</div>
+				
+				
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google-plus"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-flickr "></a>
+				<a href="#" class="fa fa-envelope-o"></a>				
+				</div>	
+			</div>
+		</div><!--container div closed-->
+			<div class="row nine">
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<a href="#" class="fa fa-cloud-upload fa-2x"></a>
+				<h2>991</h2>
+				<p>FILES UPLOADED</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<a href="#" class="fa fa-check fa-2x"></a>
+				<h2>7394</h2>
+				<p>PROJECTS UPLOADED</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<a href="#" class="fa fa-code fa-2x"></a>
+				<h2>18745</h2>
+				<p>LINES OF CODE WRITTEN</p>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 text-center">
+				<a href="#" class="fa fa-male fa-2x"></a>
+				<h2>8423</h2>
+				<p>HAPPY CLIENTS</p>
+			</div>
+			</div>
+			<div class="container">
+			<section class="row text-center sixthone ten">
+					<h2><span>Our Happy </span>Clients </h2>
+					<p>Partners We Work With</p>
+			</section>
+			<div class="row">
+				<ul class="pager">
+					<li><a href="#mycarousel" data-slide="prev">&laquo;</a></li>
+					<li><a href="#mycarousel" data-slide="next">&raquo;</a></li>
+				</ul>
+			</div>
+				<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 text-center">
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+										<img src="images/c1.png" alt="client1"/>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+									<img src="images/c2.png" alt="client1"/>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+									<img src="images/c3.png" alt="client1"/>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+									<img src="images/c4.png" alt="client1"/>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+									<img src="images/c5.png" alt="client1"/>
+								</div>
+								<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 text-center">
+								</div>
+				</div>
+		</div><!-- container div closed-->
+		
+		<footer class="row eleven">
+			<div class="row">
+			<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+				<section class="col-md-12 col-lg-12">
+						<h4><strong>GET IN TOUCH</strong></h4>
+						<hr>
+						<p>Join our mailing list stay up to date and get notices about our new releases!</p>
+						<button type="button" class="btn btn-default">mail@example.com</button>
+						<button type="button" class="btn btn-danger ">SEND</button>
+				</section>
+				<section class="col-md-12 col-lg-12">
+						
+						<h4 id="fol"><strong>FOLLOW US</strong></h4>
+						<hr>
+						<ul class="list-inline col-xs-12 col-sm-12">
+						<li><i class="fa fa-facebook  ficon"></i></li>
+						<li><i class="fa fa-twitter  ficon"></i></li>
+						<li><i class="fa fa-google-plus ficon"></i></li>
+						<li><i class="fa fa-dribbble  ficon"></i></li>
+						<li><i class="fa fa-linkedin ficon"></i></li>
+						<li><i class="fa fa-flickr  ficon"></i></li>
+						<li><i class="fa fa-tumblr  ficon"></i></li>
+						<li><i class="fa fa-instagram  ficon"></i></li>
+						<li><i class="fa fa-vimeo ficon"></i></li>
+						<li><i class="fa fa-skype  ficon"></i></li>
+					</ul>
+				</section>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+			<section >
+					<h4><strong>Twitter</strong></h4>
+					<hr>
+					<div class="col-md-12 col-lg-12">
+						<p><span class="gray">@GrayGrids</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><span class="twidate">28 Feburary 2014</span></p>
+					</div>
+					<div class="col-md-12 col-lg-12">
+						<p><span class="gray">@GrayGrids</span>  Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><span >26 Feburary 2014</span></p>
+					</div>
+					<div class="col-md-12 col-lg-12">
+						<p><span class="gray">@GrayGrids</span>  Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><span>28 Feburary 2014</span></p>
+					</div>
+			</section>
+			</div>
+		
+			<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">
+			<section>
+					<h4><strong>FLICKER FEED</strong></h4>
+					<hr>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f1.gif" alt="image1" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f2.jpg" alt="image2" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f3.jpg" alt="image3" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f4.jpg" alt="image4" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f5.jpg" alt="image5" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f6.jpg" alt="image6" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f5.jpg" alt="image7" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f2.jpg" alt="image8" class="img-responsive">
+					</div>
+					<div class="col-sm-4 col-lg-4 col-xs-4 col-md-4 thumbnail">
+						<img src="images/f1.gif" alt="image9" class="img-responsive">
+					</div> 
+				</section>
+			</div>
+			<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12">	
+				<div >
+					<div class="col-md-12 col-lg-12">
+						<img src="images/footer-margo.png" alt="footer image"/>
+					</div>
+					<div class="col-md-12 col-lg-12 fpara">
+						<p>At vero eos et accusamus et lusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+					</div>
+					<div class="col-md-12 col-lg-12 elevn">
+						<ul>
+							<li><strong>Phone number:</strong> +01 234 567 890</li>
+							<li><strong>Email:</strong> company@company.com</li>
+							<li><strong>Website:</strong> www.yourdomain.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="scroll-up " style="display: inline;"></a>
+		</div>
+	
+		<hr id="hrf">
+		
+		<div class="row ">
+					<ul class="list-inline" id="sitemap">
+						<li>SITEMAP</li>
+						<li>PRIVACY POLICY</li>
+						<li>CONTACT</li>
+					</ul>
+					<p id="copyright">&copy; MARGO- ALL RIGHTS RESERVED <span class="diffrnt">GRAYGRIDS</span></p>
+		</div>
+	</footer>
+			
+	</div><!-- container fluid-->
+			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</body>
+</html>
